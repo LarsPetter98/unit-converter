@@ -1,0 +1,55 @@
+body {
+    box-sizing: border-box;
+}
+
+header h1 {
+    cursor: pointer;
+    width: fit-content;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+main {
+    width: fit-content;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 0.078vw solid lightgrey;
+    width: fit-content;
+    padding: 1.563vw 1.563vw 1.563vw 1.563vw;
+    background-color: #5b5b5b;
+}
+
+.form-inner {
+    display: flex;
+}
+
+.form-container-1 {
+    width: fit-content;
+    margin-right: 1.172vw;
+}
+
+select {
+    width: 197px;
+}
+
+.menu {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.menu > div {
+    margin-right: 8px;
+    background-color:coral;
+    padding: 4px 12px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.menu > div:hover {
+    opacity: 50%;
+}
